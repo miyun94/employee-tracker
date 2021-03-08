@@ -18,7 +18,7 @@
 ## Usage
   Once the npms are installed, go to the terminal and type in node server.js to start up the application. Choose from the options listed for what needs to be seen or edited and answer any further questions if any. 
   <br>
-  Here is a demo walkthrough video of how the application is ran: [Link to video](!https://youtu.be/Iux0NcKr_N0)
+  Here is a demo walkthrough video of how the application is ran: [Link to video](https://youtu.be/Iux0NcKr_N0)
 
 ## Applications
     -MySQL
