@@ -114,7 +114,7 @@ function addEmployee(){
     ]).then(response => {
         connection.query(`INSERT INTO employee (first_name, last_name, role_id, manager_id) VALUES ('${response.firstname}', '${response.lastname}', '${response.role}', '${response.manager}')`, (err, res)=>{
             if(err) throw err; 
-            console.log('added employee name')
+            console.log('added employee name') 
             mainMenu(); 
         })
     })
@@ -127,13 +127,14 @@ function updateEmployee(){
         {
             name: 'update',
             type: 'input',
-            message: 'What is the ID number of the employee you want to update?'
+            message: 'What is the ID number of the employee you want to update?',
         }, 
         {
-            name: 'role', 
+            name: 'role',
             type: 'input', 
-            message: 'What is the new role ID of the employee?'
-        }, 
+            message: "What is the new role ID for the employee?"
+
+        },
         {
             name: 'manager', 
             type: 'input', 
